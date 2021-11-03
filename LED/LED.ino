@@ -6,6 +6,8 @@
 // LEDの連結数
 #define LED_NUM 8
 
+// 書き込む際のArduinoのターゲットはArduino Micro
+
 // LEDを操作するクラスのインスタンス作成
 Adafruit_NeoPixel LED = Adafruit_NeoPixel(LED_NUM, LED_OUTPIN, NEO_GRB + NEO_KHZ800);
 
